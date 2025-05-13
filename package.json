@@ -4,7 +4,10 @@
   "description": "A Telegram bot boilerplate",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.61.0",
